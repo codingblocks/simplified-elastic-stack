@@ -10,7 +10,7 @@ docker-compose up
 
 So...what do you do next?
 
-1. Import some data into Elasticsearch...maybe through [Logstash](https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html))
+1. Import some data into Elasticsearch...maybe through the [Logstash](https://www.elastic.co/guide/en/logstash/current/getting-started-with-logstash.html)) config file (./logstash/logstash.conf)
 
 2. Run a simple query through kibana by navigating to http://localhost:5601 and clicking on the "Dev Tools" tab.
 
