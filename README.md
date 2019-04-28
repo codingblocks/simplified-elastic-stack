@@ -2,7 +2,7 @@
 
 This is a simple repository for spinning up a basic Elastic Stack environment that's suitable to begin a small project. No need to mess with java, ruby, dns, or fire wall! The data will be persisted on your disk, so you don't have to worry about recreating every time you spin this sucker up. See the docker-compose.yml file for more info
 
-Running the following command will spin up Elasticsearch (:9200, :9300), Kibana (:5601), and Logstash
+Running the following command will spin up Elasticsearch (:9200), Kibana (:5601), and Logstash
 
 ```bash
 docker-compose up
@@ -17,7 +17,7 @@ So...what do you do next?
 Something like this ought to do!
 
 ```bash
-GET /YOURINDEXNAMEHERE/_search
+POST /YOURINDEXNAMEHERE/_search
 { }
 ```
 
